@@ -1,0 +1,74 @@
+.profile {
+  display: flex;
+  width: 350px;
+  margin-top: 20px;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.avatar {
+  width: 70%;
+  object-fit: cover;
+  padding: 40px;
+  margin: 15px 0;
+
+  background-color: var(--blue-color);
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tag {
+  margin-bottom: 15px;
+}
+
+.location {
+  margin-bottom: 30px;
+}
+.tag,
+.location {
+  font-size: 25px;
+  color: var(--text-color);
+}
+
+.stats {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 20px 0;
+  background-color: var(--stats-background-color);
+  border-radius: 0 0 12px 12px;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.quantity {
+  font-size: 20px;
+  font-weight: 700;
+}
