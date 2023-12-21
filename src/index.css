@@ -21,7 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
-  background: var(--snow-color);
+  background: var(--azure-color);
 }
 
 code {
