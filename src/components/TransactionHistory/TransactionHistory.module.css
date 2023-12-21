@@ -1,0 +1,38 @@
+.container {
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.transactionHistory {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: var(--steelBlue-color);
+  color: var(--white-color);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid var(--text-color);
+}
+tbody {
+  color: var(--text-color);
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--whiteSmoke-color);
+}
