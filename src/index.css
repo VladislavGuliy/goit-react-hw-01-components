@@ -4,6 +4,8 @@
   --stats-background-color: #dedcdc;
   --blue-color: #e0ffff;
   --text-color: #757575;
+  --azure-color: #f0ffff;
+  --white-color: #ffffff;
 }
 
 * {
@@ -19,6 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   justify-content: center;
+  background: var(--snow-color);
 }
 
 code {
@@ -36,6 +39,9 @@ p {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
 ul,
 ol {
   margin: 0;
